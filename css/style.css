@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(8, 143, 98);
+}
+
+.container{
+    margin: 20px auto;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    width: 900px;
+    border: 1px solid black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+}
+
+.container h2{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.paragrafo-dica{
+    text-align: center;
+    font-size: 20px;
+}
+
+label{
+    font-size: 20px;
+    padding-left: 20px ;
+}
+
+p{  
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+.envioPalpite{
+    background-color: rgb(255, 70, 70);
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.envioPalpite:hover{
+    background-color: rgb(144, 17, 17);
+}
+
+.campoPalpite{
+    background-color: #ddd;
+    padding: 4px;
+    color: black;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+
+button{
+    background-color: rgb(255, 70, 70);
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 auto;
+    display: flex;
+    margin-top: -70px;
+}
+
+button:hover{
+    background-color: rgb(144, 17, 17);
+}
+
